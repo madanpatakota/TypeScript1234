@@ -2,15 +2,7 @@
 
 //var studentName = "Rahul";
 
-export{};
+// export{};
 
-let studentName :string = "Rahul";
-
-let age         :number = 10;
-
-let isPassed    :boolean = true;
-
-console.log(studentName);
-console.log(age);
-console.log(isPassed);
+let studentName :string = "jjjjj";
 

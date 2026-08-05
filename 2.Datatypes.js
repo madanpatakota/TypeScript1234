@@ -1,3 +1,4 @@
+"use strict";
 // String
 // Number
 // Boolean
@@ -6,6 +7,7 @@
 // Void       -- function
 // Null
 // Undefined
+Object.defineProperty(exports, "__esModule", { value: true });
 var studentName = "Rahul"; // Rahul
 let age = 10; // 10
 //age.toFixed(2)   = 10.00;
@@ -30,4 +32,3 @@ if (typeof (value2) == "string") { // tsc ---> value2 incase its string
 else if (typeof (value2) == "number") {
     console.log(value2.toFixed(2));
 }
-export {};
