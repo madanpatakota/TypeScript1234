@@ -40,8 +40,13 @@ class BankAccount {
     }
 }
 let account = new BankAccount();
+account.accountHolder = "peter";
 console.log(account.accountHolder);
 account.showBalance();
 export {};
 // ❌ Error
 // console.log(account.balance);
+// readonly
+// var readonly companyname:string  = "Microsoft";
+// companyname = "Google";
+// console.log(companyname); //Google
